@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T21:55:20 GMT+02:00" name="Default suite" finished-at="2022-12-07T21:56:00 GMT+02:00" duration-ms="39845">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T21:55:20 GMT+02:00" name="Default test" finished-at="2022-12-07T21:56:00 GMT+02:00" duration-ms="39845">
+      <class name="Smartbuy_test">
+        <test-method is-config="true" signature="this_is_before_test()[pri:0, instance:Smartbuy_test@694abbdc]" started-at="2022-12-07T21:55:20 GMT+02:00" name="this_is_before_test" finished-at="2022-12-07T21:55:53 GMT+02:00" duration-ms="32778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- this_is_before_test -->
+        <test-method signature="Discount_Assert()[pri:0, instance:Smartbuy_test@694abbdc]" started-at="2022-12-07T21:55:53 GMT+02:00" name="Discount_Assert" finished-at="2022-12-07T21:55:53 GMT+02:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Discount_Assert -->
+        <test-method signature="Test_Adding__items_SAMSUNG_50_inch()[pri:0, instance:Smartbuy_test@694abbdc]" started-at="2022-12-07T21:55:53 GMT+02:00" name="Test_Adding__items_SAMSUNG_50_inch" finished-at="2022-12-07T21:55:59 GMT+02:00" duration-ms="5545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding__items_SAMSUNG_50_inch -->
+        <test-method signature="we_need_to_check_the_correct_price()[pri:0, instance:Smartbuy_test@694abbdc]" started-at="2022-12-07T21:55:59 GMT+02:00" name="we_need_to_check_the_correct_price" finished-at="2022-12-07T21:56:00 GMT+02:00" duration-ms="1357" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [1.449] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [1.449] but found [1.0]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Smartbuy_test.we_need_to_check_the_correct_price(Smartbuy_test.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- we_need_to_check_the_correct_price -->
+      </class> <!-- Smartbuy_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
